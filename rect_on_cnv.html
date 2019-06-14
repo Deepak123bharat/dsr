@@ -1,17 +1,25 @@
 <html ><head>
-<title> Simple GUI Tutorials </title>
+<title> GUI Tutorials </title>
 
 <style>
 
+body{
+      background-color:rgb(230, 230, 230);  
+}
+    
 div {
     max-width: 700px;
    
 }
-p, li, h1, h2, h3, h4, h5, {
+p {
+    font-family: fantasy;
+    color:rgb(0,0,0);
+}
+li, h1, h2, h3, {
     font-family: serif;
     color:darkslategray;
 }
-h1, h2, h3, h4, h5, {
+h1, h2, h3, {
     font-weight: 800;
 }
 
@@ -28,7 +36,7 @@ p, li {
 }
 </style>
 </head>
-<body data-gr-c-s-loaded="true">
+<body data-gr-c-s-loaded="true"; >
 <h1 >GUI </h1>
 <h2 >Using <a href="https://www.lua.org/">Lua</a>, <a href= "https://webserver2.tecgraf.puc-rio.br/iup/">IUP</a>, <a href="http://webserver2.tecgraf.puc-rio.br/im/">IM</a> and <a href="http://webserver2.tecgraf.puc-rio.br/cd/">CD</a></h2>
 <div>
@@ -43,6 +51,23 @@ p, li {
 </ul>
 
 </div>
-<h2>DRAG AND DROP RECTANGLE ON CANVAS</h2><img src="images/avatars/rect_on_canvas.png">
-
+<h2>DRAG AND DROP RECTANGLE ON CANVAS</h2>
+<a href="https://github.com/Deepak123bharat/lua-gl/blob/master/test/rectangle_on_grid.lua">Code</a><br><br><img src="images/avatars/rect_on_canvas.png">
+<h2>Overview</h2>
+<p>Grid is drawn on the canvas. You have to press the mouse button and drag the mouse to the destination <br>point. </p>
+<h2>Coding</h2>
+<h3>Drawing simple canvas</h3>
+<img src="images/avatars/roc1.png">
+<p>First three line includes the required module in the program. <font color="#ff00ff">iup.canvas</font> create a canvas. <br><font color="#ff00ff">iup.dialog</font> create dialog. Here vbox represents a vertical box. We put canvas into a vertical box.<br> <font color="#ff00ff">dg:showxy</font>(iup.CENTER,iup.CENTER) shows the dialog. last three line use to be able to run <br> this script inside another context.</p>
+<h3>Drawing grid on canvas</h3>
+<img src="images/avatars/roc2.png">
+<p>function <font color="#ff00ff">drawGrid</font> will draw a grid on the canvas. function <font color="#ff00ff">map_cb</font> create a cd canvas on which <br>we can draw. function <font color="#ff00ff">unmap_cb</font> kill the cd canvas.</p>
+<h3>Fit the rectangle position to grid</h3>
+<img src="images/avatars/roc3.png">
+<img src="images/avatars/roc4.png">
+<p>This function(check_gird) takes four variable as input and manipulates them, and set the input<br> variable best fit to the grid.</p>
+<h3>Drawing rectangle on canvas</h3>
+<img src=images/avatars/roc5.png>
+<p>There are three functions. First one <font color="#ff00ff">drawRect</font> simply draw the grid on the canvas after that check the coordinate and draw <br>a rectangle on the canvas. Second function <font color="#ff00ff">cnv:button_cb</font> call when a mouse button is pressed it set the starting coordinates<br> of a rectangle. Third function <font color="#ff00ff">cnv:motion_cb</font> call when the mouse is moved and set the end point of the rectangle. </p>
+<h2><a href="https://github.com/Deepak123bharat/lua-gl/blob/master/test/rectangle_on_grid.lua">Final Code</a></h2>
 </body></html>
