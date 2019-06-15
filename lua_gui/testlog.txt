@@ -1,0 +1,61 @@
+print(x)
+nil
+>print(x)
+nil
+>x
+	=10
+>print(x)
+10
+>x = 20
+>print(x)
+20
+>print(x)
+20
+>print("hello")
+hello
+>print("hi")
+hi
+>a = 10 
+>b = 50
+>print(a+b)
+60
+>print(x)
+10
+>require("mymodule")
+stdin:1: module 'mymodule' not found:
+	no field package.preload['mymodule']
+	no file '/usr/local/share/lua/5.3/mymodule.lua'
+	no file '/usr/local/share/lua/5.3/mymodule/init.lua'
+	no file '/usr/local/lib/lua/5.3/mymodule.lua'
+	no file '/usr/local/lib/lua/5.3/mymodule/init.lua'
+	no file './mymodule.lua'
+	no file './mymodule/init.lua'
+	no file '/usr/local/lib/lua/5.3/mymodule.so'
+	no file '/usr/local/lib/lua/5.3/loadall.so'
+	no file './mymodule.so'
+>mymodule.foo()
+stdin:1: attempt to index a nil value (global 'mymodule')
+>private()
+stdin:1: attempt to call a nil value (global 'private')
+>mymodule.bar()
+stdin:1: attempt to index a nil value (global 'mymodule')
+>print(hello)
+nil
+>print("hello")
+
+hello
+>print("hello")
+
+hello
+>mymodule.foo()
+stdin:1: attempt to index a nil value (global 'mymodule')
+>foo()
+
+stdin:1: attempt to call a nil value (global 'foo')
+>print("hello:")
+stdin:1: attempt to call a nil value (global 'print')
+>mymodule.foo()
+stdin:1: attempt to index a nil value (global 'mymodule')
+>foo()
+stdin:1: attempt to call a nil value (global 'foo')
+>
