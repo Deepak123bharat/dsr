@@ -58,4 +58,1389 @@ stdin:1: attempt to call a nil value (global 'print')
 stdin:1: attempt to index a nil value (global 'mymodule')
 >foo()
 stdin:1: attempt to call a nil value (global 'foo')
+>canvas is = 	IUP(canvas): 0xef8110
+IUP(canvas): 0xef8110	DRAWING	40	40	600	600
+print("hello")
+stdin:1: syntax error near 'is'
+>print("hello")
+hello
+>canvas is = 	IUP(canvas): 0x124fdd0
+IUP(canvas): 0x124fdd0	DRAWING	20	20	400	400
+hello
+stdin:1: syntax error near 'is'
+>print(cnv1)
+IUP(canvas): 0x124fdd0
+>cnvobj1:drawObj("LINE")
+IUP(canvas): 0x124fdd0	DRAWING	20	20	400	400
+>canvas is = 	IUP(canvas): 0x241d880
+IUP(canvas): 0x241d880	DRAWING	20	20	400	400
+heloo
+stdin:1: syntax error near 'is'
+>cnvObj1:drawObj("LINE")
+stdin:1: attempt to index a nil value (global 'cnvObj1')
+>cnvobj1:drawObj("LINE")
+IUP(canvas): 0x241d880	DRAWING	20	20	400	400
+>cnvobj1:drawObj("RECT")
+IUP(canvas): 0x241d880	DRAWING	20	20	400	400
+>cnvobj1:drawObj("FILLEDRECT")
+IUP(canvas): 0x241d880	DRAWING	20	20	400	400
+>canvas is = 	IUP(canvas): 0x14de720
+IUP(canvas): 0x14de720	DRAWING	20	20	400	400
+exit
+stdin:1: syntax error near 'is'
+>cnvobj:drawObj("FILLEDELLIPS")
+stdin:1: attempt to index a nil value (global 'cnvobj')
+>cnvobj1:drawObj("FILLEDELLIPS")
+IUP(canvas): 0x14de720	DRAWING	20	20	400	400
+>cnvobj1:drawObj("FILLEDELLIPS")
+>cnvobj1:drawObj("FILLEDELLIPSE")
+stdin:2: unexpected symbol near '>'
+>cnvobj1:drawObj("FILLEDELLIPS")
+>cnvobj1:drawObj("LINE")
+stdin:2: unexpected symbol near '>'
+>canvas is = 	IUP(canvas): 0x183ca30
+IUP(canvas): 0x183ca30	DRAWING	20	20	400	400
+print(hello)
+stdin:1: syntax error near 'is'
+>cnvobj1:drawObj("LINE"
+	)
+IUP(canvas): 0x183ca30	DRAWING	20	20	400	400
+>canvas is = 	IUP(canvas): 0x1fae7a0
+IUP(canvas): 0x1fae7a0	DRAWING	20	20	400	400
+PHEL
+stdin:1: syntax error near 'is'
+>cnvobj1:drawObj("LINE")
+IUP(canvas): 0x1fae7a0	DRAWING	20	20	400	400
+>canvas is = 	IUP(canvas): 0x16ad220
+IUP(canvas): 0x16ad220	DRAWING	20	20	400	400
+priitn
+stdin:1: syntax error near 'is'
+>cnvobj1:drawObj("LINE")
+IUP(canvas): 0x16ad220	DRAWING	20	20	400	400
+>canvas is = 	IUP(canvas): 0x2b2d0d0
+IUP(canvas): 0x2b2d0d0	DRAWING	20	20	400	400
+x and y before226	199
+x and y after226	199
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+x and y before336	313
+x and y after336	313
+x and y before163	143
+x and y after163	143
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+x and y before283	253
+x and y after283	253
+x and y before196	98
+x and y after196	98
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+ELLIPSE
+x and y before297	200
+x and y after297	200
+print
+stdin:1: syntax error near 'is'
+>cnvobj1:drawObj("LINE")
+IUP(canvas): 0x2b2d0d0	DRAWING	20	20	400	400
+>grid drawn
+canvas is = 	IUP(canvas): 0x1ca34a0
+IUP(canvas): 0x1ca34a0	DRAWING	20	20	400	400
+print
+stdin:1: syntax error near 'drawn'
+>cnvobj1:drawObj("LINE")
+IUP(canvas): 0x1ca34a0	DRAWING	20	20	400	400
+>grid drawn
+canvas is = 	IUP(canvas): 0x26a8150
+IUP(canvas): 0x26a8150	DRAWING	20	20	400	400
+print
+stdin:1: syntax error near 'drawn'
+>grid drawn
+canvas is = 	IUP(canvas): 0x1c46cd0
+IUP(canvas): 0x1c46cd0	DRAWING	20	20	400	400
+print
+stdin:1: syntax error near 'drawn'
+>cnvobj1:drawObj("LINE")
+IUP(canvas): 0x1c46cd0	DRAWING	20	20	400	400
+>cnvobj1:drawObj("FILLEDRECT")
+IUP(canvas): 0x1c46cd0	DRAWING	20	20	400	400
+>nil
+grid drawn
+canvas is = 	IUP(canvas): 0x265f8a0
+print
+stdin:1: unexpected symbol near 'nil'
+>cnvobj1:drawObj("LINE")
+IUP(canvas): 0x265f8a0	DRAWING	50	50	400	400
+>nil
+grid drawn
+canvas is = 	IUP(canvas): 0x1284e20
+cnvobj1:drawObj("LINE")
+stdin:1: unexpected symbol near 'nil'
+>nil
+grid drawn
+canvas is = 	IUP(canvas): 0x1284e20
+cnvobj1:drawObj("LINE")
+stdin:1: unexpected symbol near 'nil'
+>nil
+grid drawn
+canvas is = 	IUP(canvas): 0x1284e20
+cnvobj1:drawObj("LINE")
+stdin:1: unexpected symbol near 'nil'
+>cnvobj1:drawObj("LINE")
+IUP(canvas): 0x1284e20	DRAWING	50	50	400	400
+>cnvobj1:drawObj("ELLIPS")
+IUP(canvas): 0x1284e20	DRAWING	50	50	400	400
+>cnvobj1:drawObj("ELLIPSE")
+IUP(canvas): 0x1284e20	DRAWING	50	50	400	400
+>nil
+grid drawn
+canvas is = 	IUP(canvas): 0xc39730
+nil
+grid drawn
+canvas is = 	IUP(canvas): 0xc39730
+print
+stdin:1: unexpected symbol near 'nil'
+>cvnobj2:drawObj("FILLEDRECT")
+stdin:1: attempt to index a nil value (global 'cvnobj2')
+>cvnobj2:drawObj("FILLEDRECT")
+stdin:1: attempt to index a nil value (global 'cvnobj2')
+>cnvobj1:drawObj("LINE")
+
+IUP(canvas): 0x23d6640	DRAWING	50	50	400	400
+>cnvobj1:drawObj("LINE")
+IUP(canvas): 0x1b2c310	DRAWING	50	50	400	400
+>cnvobj2:drawObj("LINE")
+IUP(canvas): 0x24ffae0	DRAWING	40	40	500	500
+>cnvobj1:drawobj("LINE")
+stdin:1: attempt to call a nil value (method 'drawobj')
+>cnvobj1:drawObj("LINE")
+IUP(canvas): 0x27a7ec0	DRAWING	20	20	200	200
+>cnvobj1:drawObj("LINE")
+IUP(canvas): 0x11a4c40	DRAWING	20	20	200	200
+>cnvobj2:drawObj("RECT")
+IUP(canvas): 0xd5b6b0	DRAWING	15	15	200	200
+>cnvobj1:drawObj("LINE")
+IUP(canvas): 0xc84840	DRAWING	20	20	200	200
+>cnvobj1:drawObj("LINE")
+IUP(canvas): 0xd23ad0	DRAWING	20	20	200	200
+>cnvobj2:drawObj("ELLIPSE")
+IUP(canvas): 0x200eb00	DRAWING	15	15	200	200
+>cnvobj1:drawObj("LINE")
+IUP(canvas): 0x1f3aa70	DRAWING	20	20	200	200
+>cnvobj2:drawObj("LINE")
+IUP(canvas): 0x137f690	DRAWING	15	15	200	200
+>cnvobj2:drawObj("LINE")
+IUP(canvas): 0xf9c580	DRAWING	15	15	200	200
+>cnvobj2:drawObj("LINE")
+IUP(canvas): 0x1116b60	DRAWING	15	15	200	200
+>cnvobj2:drawObj("LINE")
+IUP(canvas): 0x1b29730	DRAWING	15	15	200	200
+>cnvobj1:drawObj("FILLEDRECT")
+IUP(canvas): 0x1acbee0	DRAWING	20	20	200	200
+>cnvobj2:drawObj("LINE")
+IUP(canvas): 0xc68cf0	DRAWING	15	15	200	200
+>cnvobj1:drawObj("RECT")
+IUP(canvas): 0xb8bd80	DRAWING	20	20	200	200
+>cnvobj2:drawObj("LINE")
+IUP(canvas): 0x1aa4200	DRAWING	15	15	200	200
+>cnvobj1:drawObj("RECT")
+IUP(canvas): 0x1bb7b70	DRAWING	20	20	200	200
+>cnvobj2:drawObj("LINE")
+IUP(canvas): 0x2082c90	DRAWING	15	15	200	200
+>cnvobj1:drawObj("RECT")
+IUP(canvas): 0x21bceb0	DRAWING	20	20	200	200
+>cnvobj2:drawObj("LINE")
+IUP(canvas): 0x14c0fb0	DRAWING	15	15	200	200
+>15	15	200	200
+
+stdin:1: unexpected symbol near '15'
+>cnvobj1:drawObj("RECT")
+IUP(canvas): 0x140c3f0	DRAWING	20	20	200	200
+>cnvobj2:drawObj("LINE")
+
+./t2.lua:70: attempt to index a nil value (global 'self')
+>15	15	200	200
+15	15	200	200
+
+stdin:1: unexpected symbol near '15'
+>cnvobj1:drawObj("RECT")
+./t2.lua:70: attempt to index a nil value (global 'self')
+>cnvobj1:drawObj("LINE")
+./t2.lua:69: attempt to index a nil value (global 'self')
+>cnvobj2:drawObj("ELLIPSE")
+./t2.lua:69: attempt to index a nil value (global 'self')
+>cnvobj2:drawObj("ELLIPSE")
+./t2.lua:71: attempt to index a nil value (global 'self')
+>cnvobj2:drawObj("FILLEDELLIPSE")
+>15	15	200	200
+
+stdin:1: unexpected symbol near '15'
+>cnvobj1:drawObj("ELLIPSE")
+>cnvobj2:drawObj("RECT")
+
+>15	15	200	200
+15	15	200	200
+
+stdin:1: unexpected symbol near '15'
+>cnvobj1:drawObj("LINE")
+
+>cnvobj2:drawObj("RECT")
+>15	15	200	200
+15	15	200	200
+
+stdin:1: unexpected symbol near '15'
+>cnvobj1:drawObj("LINE")
+>cnvobj2:drawObj("FILLEDRECT")
+>cnvobj2:drowObj("LINE")
+stdin:1: attempt to call a nil value (method 'drowObj')
+>cnvobj2:drawObj("LINE")
+>cnvobj2:drawObj("LINE")
+>cnvobj1:drawObj("RECT")
+>cnvobj2:drawObj("LINE")
+>cnvobj1:drawObj("RECT")
+>cnvobj1:drawObj("LINE")
+>cnvobj2:drawObj("LINE")
+>cnvobj1:drawObj("RECT")
+>cnvobj2:drawObj("LINE")
+>cnvobj1:drawObj("RECT")
+>cnvobj2:drawObj("LINE")
+>cnvobj1:drawObj("RECT")
+>20	15
+
+stdin:1: unexpected symbol near '20'
+>cnvobj2:drawObj("LINE")
+>cnvobj1:drawObj("RECT")
+>cnvobj2:drawObj("FILLEDRECT")
+>cnvobj1:drawObj("RECT")
+>cnvobj1:drawObj("LINE")
+>cnvobj1:drawObj("LINE")
+>cnvobj2:drawObj("LINE")
+>cnvobj1:drawObj("LINE")
+>cnvobj1:drawObj("LINE")
+>cnvobj1:drawObj("LINE")
+>cnvobj1:drawObj("LINE")
+>cnvobj2:drawObj("LINE")
+>126	240	126	240
+126	240	126	239
+126	240	126	239
+126	240	126	238
+126	240	130	234
+126	240	133	232
+126	240	136	229
+126	240	146	224
+126	240	152	220
+126	240	174	209
+126	240	185	202
+126	240	193	198
+126	240	210	189
+126	240	221	184
+126	240	236	176
+126	240	262	164
+126	240	274	158
+126	240	291	153
+126	240	330	141
+126	240	344	137
+126	240	359	134
+126	240	361	133
+126	240	362	133
+126	240	366	132
+126	240	391	129
+126	240	406	128
+126	240	422	128
+126	240	427	128
+126	240	439	128
+126	240	446	128
+126	240	454	128
+126	240	464	132
+126	240	466	133
+126	240	467	133
+126	240	469	134
+126	240	470	135
+126	240	471	137
+126	240	474	142
+126	240	476	145
+126	240	479	148
+126	240	479	149
+126	240	480	150
+126	240	480	150
+126	240	481	151
+126	240	481	151
+126	240	482	152
+126	240	482	152
+126	240	482	152
+126	240	483	152
+126	240	483	152
+126	240	483	153
+126	240	483	153
+505	226	502	226
+505	226	487	226
+505	226	463	214
+505	226	427	205
+505	226	415	202
+505	226	403	199
+505	226	386	196
+505	226	345	181
+505	226	326	175
+505	226	276	160
+505	226	257	157
+505	226	236	150
+505	226	210	140
+505	226	198	136
+505	226	170	127
+505	226	155	122
+505	226	139	115
+505	226	108	104
+505	226	98	99
+505	226	92	96
+505	226	75	86
+505	226	66	81
+505	226	56	76
+505	226	50	74
+505	226	46	72
+505	226	43	71
+505	226	42	71
+505	226	41	71
+505	226	41	71
+505	226	41	71
+
+stdin:1: unexpected symbol near '126'
+>cnvobj1:drawObj("RECT")
+>cnvobj2:drawObj("FILLEDELLIPSE")
+>cnvobj1:draw("LINE")
+stdin:1: attempt to call a nil value (method 'draw')
+>cnvobj1:drawObj("LINE")
+>cnvobj1:drawObj("LINE")
+>cnvobj2:drawObj("RECT")
+>cnvobj1:drawObj("RECT")
+
+>cnvobj2:drawObj("LINE")
+>cnvobj1:drawObj("LINE")
+>cnvobj2:drawObj("LINE")
+>cnvobj2:drawObj("RECT")
+>cnvobj1:drawObj("LINE")
+>cnvobj2:drawObj("RECT")
+>cnvobj1:drawObj("LINE")
+>cnvobj1:drawObj("LINE")
+
+>cnvobj2:drawObj("RECT")
+
+>cnvobj1:drawObj("LINE")
+>cnvobj2:drawObj("RECT")
+>cnvojb2:drawObj("LINE")
+
+stdin:1: attempt to index a nil value (global 'cnvojb2')
+>cnvobj2:drawObj("LINE")
+
+>cnvobj2:drawObj("LINE")
+>cnvobj2:drawObj("LINE")
+>cnvobj1:drawObj("RECT")
+>cnvobj2:drawObj("FILLEDRECT")
+>cnvobj2:drawObj("LINE")
+>cnvobj1:drawObj("LINE")
+>cnvobj1:drawObj("LINE")
+>nvobj1:drawObj("LINE")
+stdin:1: attempt to index a nil value (global 'nvobj1')
+>cnvobj1:drawObj("LINE")
+>cnvobj1:drawObj("LINE")
+>cnvobj:drawObj("LINE")
+stdin:1: attempt to index a nil value (global 'cnvobj')
+>cnvobj1:drawObj("LINE")
+>LINE
+LINE
+
+stdin:2: syntax error near 'LINE'
+>cnvobj1:drawObj("RECT")
+>LINE
+LINE
+LINE
+
+stdin:2: syntax error near 'LINE'
+>print(table.str[2].shape)
+stdin:1: attempt to index a nil value (field 'str')
+>print(table.str[1].shape)
+stdin:1: attempt to index a nil value (field 'str')
+>print(cnvobj1.str[2].shape)
+LINE
+>print(cnvobj1.str[3].shape)
+RECT
+>cnvobj1:drawObj("LINE")
+>cnvobj1:drawObj("RECT")
+>cnvobj1:drawObj("LINE")
+
+>print(#cnvobj1.str)
+2
+>cnvobj1:drawObj("RECT")
+>cnvobj1:drawObj("LINE")
+>cnvobj2:drawObj("LINE")
+>print(#cnvobj1.drawnEle)
+4
+>print(#cnvobj2.drawnEle)
+4
+>cnvobj1:drawObj("LINE")
+>cnvobj1:drawObj("LINE")
+>cnvobj2:drawObj("RECT")
+>cnvobj1:drawObj("RECT")
+>cnvobj1:drawObj("LINE")
+>cnvobj2:drawObj("RECT")
+>cnvobj1:drawObj("LINE")
+>cnvobj1:drawObj("LINE")
+
+>cnobj2:drawObj("RECT")
+stdin:1: attempt to index a nil value (global 'cnobj2')
+>cnvobj2:drawObj("RECT")
+>print(#cnvobj.drawnEle)
+stdin:1: attempt to index a nil value (global 'cnvobj')
+>print(#cnvobj1.drawnEle)
+0
+>print(#cnvobj2.drawnEle)
+0
+>cnvobj1:drawObj("LINE")
+
+>cnvobj2:drawObj("RECT")
+>print(#cnvobj1.drawnEle)
+7
+>print(cnvobj1.drawnEle[1])
+table: 0x19a8570
+>print(cnvobj1.drawnEle[1].shape)
+LINE
+>print(cnvobj1.drawnEle[7].shape)
+RECT
+>cnvobj1:drawObj("LINE")
+>cnvobj2:drawObj("RECT")
+>print(#cnvobj1.drawnEle)
+3
+>print(#cnvobj2.drawnEle)
+4
+>print(cnvobj2.drawnEle[1].shape)
+RECT
+>print(cnvobj1.drawnEle[1].shape)
+LINE
+>print(cnvobj1.drawnEle[1].start_x)
+120.0
+>cnvobj1:drawObj("LINE")
+>cnvobj2:drawObj("RECT")
+>cnvobj2:drawObj("RECT")
+>cnvobj1:drawObj("RECT")
+>cnvobj1:drawObj("LINE")
+
+>cnvobj2:drawObj("RECT")
+
+>cnvobj1:drawObj("LINE")
+>cnvobj2:drawObj("ELLIPSE")
+>cnvobj:drawObj("LINE")
+
+stdin:1: attempt to index a nil value (global 'cnvobj')
+>cnvobj1:drawObj("LINE")
+
+>cnvobj2:drawObj("RECT")
+>cnvobj1:drawObj("RECT")
+
+>cnvobj2:drawObj("LINE")
+
+>cnvobj1:drawObj("RECT")
+
+>cnvobj2:drawObj("ELLIPSE")
+
+>print(#cnvobj2.drawnEle)
+2
+>print(cnvobj2.drawnEle[2].end_x)
+495
+>print(cnvobj1.drawnEle[2].end_x)
+360
+>cnvobj1:drawObj("LINE")
+>cnvobj1:drawObj("RECT")
+>cnvobj2:drawObj("ELLIPSE")
+>cnvobj1:drawObj("LINE")
+
+>cnvobj2:drawObj("ELLIPSE")
+
+>cnvobj2:drawObj("LINE")
+
+>cnvobj2:refresh()
+>cnvobj2:drawObj("LINE")
+>cnvobj2:refresh()
+./t2.lua:83: attempt to index a nil value (global 'cnvobj')
+>cnvobj2:drawObj("LINE")
+>cnvobj2:refresh()
+>cnvobj2:drawObj("LINE")
+>cnvobj2:refresh()
+>cnvobj2:drawObj("LINE")
+
+>cnvobj2:refresh()
+>
+>cnvobj2:refresh()
+>
+>cnvobj1:drawObj("LINE")
+
+>cnvobj1:refresh()
+
+>cnobj1:drawObj("LINE")
+
+stdin:1: attempt to index a nil value (global 'cnobj1')
+>cnvobj1:drawObj("LINE")
+>cnvobj1:refresh()
+>print(cnvobj1.cnv)
+nil
+>cnvobj1:drawObj("LINE")
+>cnvobj1:refresh()
+./t2.lua:82: bad argument #1 to 'Update' (iupHandle expected, got nil)
+>cnvobj2:drawObj("RECT")
+>cnvobj2:refresh()
+>cnvobj2:drawObj("ELLIPSE")
+
+>cnvobj2 = LGL.new("refresh",  15,15,600,300,true)
+>cnvobj2:refresh()
+>cnvobj2:drawObj("RECT")
+>cnvobj2:refresh()
+>cnvobj2.drawObj("LINE")
+
+>cnvobj2:drawObj("LINE")
+>cnvobj2:refresh()
+./t2depen.lua:260: attempt to concatenate a nil value (global 'width')
+>cnvobj2:drawObj("LINE")
+>cnvobj2:refresh()
+>iup.Update(cnvobj2.cnv)
+>dia = iup.dialog{ iup.vbox { cnvobj2.cnv }, title = "fake" }
+>dia:show()
+>dia:show()
+>dia:show()
+>cnvobj2:drawObj("LINE")
+>cnvobj2:refresh()
+./t2.lua:83: attempt to call a nil value (method 'Flush')
+>cnvobj2:drawObj("RECT")
+>dia = iup.dialog { iup.vbox = {cnvobj2.cnv, size = "300x200"}, title = "HELLO" }
+stdin:1: '}' expected near '='
+>dia = iup.dialog { iup.vbox{cnvobj2.cnv, size = "300x200"}, title = "HELLO" }
+>dia:show()
+>cnvobj2:drawObj("LINE")
+>cnvobj2:refresh()
+./t2.lua:82: bad argument #1 to 'Update' (iupHandle expected, got table)
+>cnvobj2:drawObj("LINE")
+>cnvobj2:refresh()
+>dia = iup.dialog{ iup.vbox{ cnvobj2.cnv},  title = "nan"}
+>dia:show()
+> cnvobj2:drawObj("LINE")
+
+>dlg = iup.dialog{
+    iup.vbox{
+        iup.button{title = "----------------Canvas1---------------"},
+        cnvobj1.cnv,
+        iup.button{title = "----------------Canvas2---------------"},
+        cnvobj2.cnv,
+    },
+    title="Phase1",
+    canvas=cnv1,
+    
+}
+>dlg:showxy(iup.CENTER, iup.CENTER)
+>dlg:showxy(iup.CENTER, iup.CENTER)
+>dlg:Close()
+stdin:1: attempt to call a nil value (method 'Close')
+>cnvobj2:drawObj("LINE")
+>cnvobj2:refresh()
+>
+>iup.Update(cnvobj2.cnv)
+>print(cnvobj2.cnv)
+IUP(canvas): 0x16861d0
+>print(#cnvobj2.drawEle)
+stdin:1: attempt to get length of a nil value (field 'drawEle')
+>print(#cnvobj2.drawnEle)
+2
+>cnvobj2:erase()
+>print(#cnvobj2.drawnEle)
+2
+>cnvobj2:drawObj("LINE")
+>cnvobj2:drawObj("refresh")
+>cnvobj2:drawObj("LINE")
+
+>cnvobj2:drawObj("refresh")
+
+>
+>
+>cnvobj2:drawObj("LINE")
+>cnvobj2:drawObj("refresh")
+>
+>
+>
+>
+>cnvobj2:drawObj("LINE")
+
+>cnvobj2:drawObj("refresh")
+
+>
+>
+>
+>
+>cnvobj2:drawObj("LINE")
+>cnvobj2:drawObj("refresh")
+>
+>cnvobj2:drawObj("LINE")
+>cnvobj2:refresh()
+:YOu r in refres
+./t2depen.lua:17: bad argument #1 to 'match' (string expected, got nil)
+>cnvobj2:drawObj("LINE")
+>cnvobj2:refresh()
+:YOu r in refres
+YOU are in clrear
+>cnvobj2:drawObj("LINE")
+>cnvobj2:refresh()
+>
+>cnvobj2:drawObj("LINE")
+>cnvobj2:refresh()
+>cnvobj2:drawObj("LINE")
+>cnvobj2:refresh()
+Ha bhai
+>cnvobj2:drawObj("LINE")
+>cnvobj2:refresh()
+Ha bhai
+>cnvobj2:drawObj("LINE")
+>cnvobj2:refresh()
+Ha bhai
+>cnvobj2:drawObj("LINE")
+
+>cnvobj2:refresh()
+Ha bhai
+>cnvobj2:drawObj("RECT")
+>cnvobj2:refresh()
+Ha bhai
+>cnvobj2:drawObj("LINE")
+>cnvobj2:refresh()
+Ha bhai
+>cnvobj2:drawObj("LINE")
+>cnvobj2:refresh()
+Ha bhai
+>cnvobj2:drawObj("LINE")
+>cnvobj2:refresh()
+Ha bhai
+>cnvobj2:drawObj("LINE")
+>cnvobj2:refresh()
+Ha bhai
+>cnvobj2:drawObj("LINE")
+>cnvobj2:refresh()
+Ha bhai
+change cnvobj
+>cnvobj2:drawObj("LINE")
+>cnvobj2:refresh()
+Ha bhai
+change cnvobj
+>dlg = iup.dialog{
+    iup.vbox{
+        iup.button{title = "----------------Canvas1---------------"},
+        cnvobj1.cnv,
+        iup.button{title = "----------------Canvas2---------------"},
+        cnvobj2.cnv,
+    },
+    title="Phase1",
+    canvas=cnv1,
+    
+}
+>dlg:show()
+>dlg = iup.dialog{
+    iup.vbox{
+        iup.button{title = "----------------Canvas1---------------"},
+        cnvobj1.cnv,
+        iup.button{title = "----------------Canvas2---------------"},
+        cnvobj2.cnv,
+    },
+    title="Phase1",
+    canvas=cnv1,
+    
+}
+>
+>cnvobj1 = LGL.new("DRAWING", 40, 40, 600, 300, true)  
+cnvobj2 =  LGL.new("DRAWING", 15, 15, 600, 300, true)
+
+
+dlg = iup.dialog{
+    iup.vbox{
+        iup.button{title = "----------------Canvas1---------------"},
+        cnvobj1.cnv,
+        iup.button{title = "----------------Canvas2---------------"},
+        cnvobj2.cnv,
+    },
+    title="Phase1",
+    canvas=cnv1,
+    
+}
+
+dlg:showxy(iup.CENTER, iup.CENTER)
+>cnvobj2:drawObj("LINE")
+>cnvobj2:refresh()
+Ha bhai
+change cnvobj
+>cnvobj2:drawObj("LINE")
+>cnvobj2 = cnvobj2:refresh()
+Ha bhai
+change cnvobj
+>cnvobj2:drawObj("LINE")
+>cnvobj2:refresh()
+Ha bhai
+change cnvobj
+>cnvobj2:drawObj("LINE")
+>cnvobj2:refresh()
+>cnvobj2:drawObj("LINE")
+>cnvobj2:refresh()
+Ha bhai
+>cnvobj2:drawObj("LINE")
+>cnvobj2:refresh()
+Ha bhai
+>cnvobj2:drawObj("LINE")
+>cnvobj2:refresh()
+Ha bhai
+>print(#cnvobj2.drawnEle)
+19
+>cnvobj2:drawObj("LINE")
+>cnvobj2:refresh()
+Ha bhai
+>cnvobj2:drawObj("ELLIPSE")
+>cnvobj2:refresh()
+Ha bhai
+nil
+>nil
+nil
+
+stdin:1: unexpected symbol near 'nil'
+>cnvobj2:drawObj("LINE")
+>cnvobj2:refresh()
+Ha bhai
+>cnvobj2:drawObj("LINE")
+>cnvobj2:refresh()
+Ha bhai
+>cnvobj2:drawObj("LINE")
+>cnvobj2:refresh()
+Ha bhai
+>cnvobj2:drawObj("LINE")
+>cnvobj2:erase()
+>cnvobj2:drawObj("LINE")
+>cnvobj2:drawObj("LINE")
+>cnvobj2:refresh()
+Ha bhai
+>cnvobj2:drawObj("LINE")
+>cnvobj2:refresh()
+Ha bhai
+>cnvobj2:refresh()
+Ha bhai
+>cnvobj2:drawObj("LINE")
+>cnvobj2:refresh()
+Ha bhai
+>cnvobj2:drawObj("RECT")
+>cnvobj2:refresh()
+Ha bhai
+>cnvobj2:drawObj("FILLEDELLIPSE")
+>cnvobj2:refresh()
+Ha bhai
+>cnvobj2:drawObj("ELLIPSE")
+>cnvobj2:refresh()
+Ha bhai
+>cnvobj2:drawObj("ELLIPSE")
+>cnvobj1:drawObj("LINE")
+>cnvobj1:refresh()
+Ha bhai
+>cnvobj2:drawObj("LINE")
+>cnvobj2:refresh()
+Ha bhai
+>cnvobj2:drawObj("LINE")
+>cnvobj2:refresh()
+Ha bhai
+>cnvobj2:drawObj("LINE")
+>cnvobj2:refresh()
+Ha bhai
+>cnvobj2:drawObj("LINE")
+>cnvobj2:refresh()
+Ha bhai
+>cnvobj2:refresh()
+Ha bhai
+>cnvobj2:drawObj("LINE")
+>cnvobj2:refresh()
+Ha bhai
+>cnvobj2:drawObj("RECT")
+>cnvobj2:save()
+Ha bhai
+>cnvobj2:drawObj("LINE")
+>cnvobj2:save()
+>print(#cnvobj.drawnEle)
+stdin:1: attempt to index a nil value (global 'cnvobj')
+>print(#cnvobj2.drawnEle)
+0
+>print(#cnvobj2.savedEle)
+2
+>cnvobj1:drawObj("RECT")
+>cnvobj1:save()
+>cnvobj2:drawObj("LINE")
+>cnvobj1:drawObj("LINE")
+>cnvobj2:save()
+>cnvobj1:save()
+>cnvobj2:drawObj("LINE")
+>cnvobj2:drawObj("LINE")
+>cnvobj2:save()
+>cnvobj1:drawObj("RECT")
+>cnvobj1:save()
+>cnvobj1:save()
+>cnvobj2:save()
+>
+>cnvobj2:drawObj("LINE")
+>cnvobj2:save()
+>cnvobj1:drawObj("RECT")
+>cnvobj1:save()
+>print(#cnvobj1.savedEle)
+3
+>cnvobj2:drawObj("LINE")
+>cnvobj2:drawObj("LINE")
+>cnvobj2:save()
+>cnvobj2 = LGL.new("EDITOR",15,15,600,300,true)
+>cnvobj2:drawObj("LINE")
+>cnvobj2:save()
+>cnvobj2 = LGL.new("EDITOR",15,15,600,400,true)
+>cnvobj2:drawObj("LINE")
+>cnvobj2:save()
+>
+>print(cnvobj2.savedEle[1].shape)
+LINE
+>print(#cnvobj2.savedEle)
+2
+>cnvobj2 = LGL.new("EDITOR", 15,15,600,400, ture)
+>cnvobj2:drawObj("RECT")
+>cnvobj2:drawObj("LINE")
+>cnvobj2:save()
+>cnvobj1 = LGL.new("EDITOR",15,15,600,400, true)
+>cnvobj1:objects(cnvobj2)
+>cnvobj1:drawObj("RECT")
+
+>cnvobj1:objects(cnvobj2)
+>cnvobj2:drawObj("LINE")
+
+>cnvobj2:save()
+>cnvobj2:drawObj("LINE")
+
+>cnvobj2:save()
+>
+>print(#cnvobj2:drawnEle)
+stdin:1: function arguments expected near ')'
+>print(#cnvobj2.drawnEle)
+0
+>print(#cnvobj2.savedEle)
+2
+>cnvobj2 = LGL.new("EDITOR",15,15,600,400, true)
+>cnvobj1:drawObj("LINE")
+
+>cnvobj1 = LGL.new("EDITOR",15,15,600,400, true)
+>cnvobj1:load()
+HI
+>cnvobj2:drawObj("LINE")
+
+>cnvobj2:save()
+>cnvobj2 = LGL.new("EDITOR",40,40,600,400, true)
+>iup.Update(cnvobj2.cnv)
+>cnvobj2:load()
+HI
+>cnvobj2:drawObj("LINE")
+./t2.lua:68: attempt to call a nil value (field 'Distory')
+>cnvobj2:drawObj("LINE")
+>cnvobj2 = LGL.new("EDITOR", 40,40,600,400,true)
+>cnvobj2:refresh()
+>cnvobj2:save()
+>cnvobj2:drawObj("LINE")
+>cnvobj2:refresh()
+>cnvobj2:drawObj("LINE")
+>cnvobj2:erase()
+./t2.lua:107: bad argument #1 to 'Update' (iupHandle expected, got nil)
+>cnvobj2:drawObj("LINE")
+>cnvobj2:erase()
+./t2.lua:97: attempt to call a nil value (field 'Distory')
+>cnvobj2:drawObj("RECT")
+>cnvobj2:erase()
+>
+>cnvobj2:drawObj("RECT")
+>cnvobj2:save()
+stdin:1: attempt to call a nil value (method 'save')
+>cnvobj2:drawObj("LINE")
+>cnvobj2:save()
+>print(#cnvobj2.drawnEle)
+0
+>print(#cnvobj2.savedEle)
+3
+>cnvobj1:drawObj("LINE")
+>cnvobj1:save()
+>
+>cnvobj1 = LGL.new("EDITOR",40,40,600,400,true)
+>print(cnvobj1.mode)
+EDITOR
+>cnvobj1:drawObj("LINE")
+>cnvobj1:drawObj("RECT")
+>cnvobj2:drawObj("LINE")
+>cnvobj2:save()
+>cnvobj2 = LGL.new("EDITOR",15,15,600,400,true)
+>print(cnvobj2.mode)
+EDITOR
+>cnvobj2.mode = "DRAWING"
+>print(cnvobj2.mode)
+DRAWING
+>cnvobj2.mode = "EDITOR"
+>cnvobj:drawObj("LINE")
+stdin:1: attempt to index a nil value (global 'cnvobj')
+>cnvobj2:drawObj("LINE")
+>cnvobj2:drawObj("LINE")
+>cnvobj2:drawObj("LINE")
+>button
+button
+
+stdin:2: syntax error near 'button'
+>cnvobj2.mode = "EDITOR"
+>cnvobj2:drawObj("LINE")
+>cnvobj2:save()
+>cnvobj2.mode = "EDITOR"
+>cnvobj2:drawObj("LINE")
+>button
+button
+button
+button
+
+stdin:2: syntax error near 'button'
+>cnvobj2:save()
+>cnvobj2.mode = "EDITOR"
+>cnvobj1:drawObj("LINE")
+>cnvobj1:save()
+>cnvobj1.mode = "EDITOR"
+>cnvobj2:drawObj("LINE")
+>cnvobj2:save()
+>cnvobj2.mode = "EDITOR"
+>cnvobj2:drawObj("LINE")
+>cnvobj2:save()
+>cnvobj2.mode = "EDITOR"
+>cnvobj1:drawObj("LINE")
+>cnvobj1:save()
+>cnvobj1.mode = "EDITOR"
+>print(cnvobj1.savedEle[1].start_x)
+40.0
+>print(cnvobj.savedEle[1].start_x)
+stdin:1: attempt to index a nil value (global 'cnvobj')
+>cnvobj1:drawObj("LINE")
+>cnvobj1:save()
+>cnvobj1.mode = "EDITOR"
+>cnvobj1:drawObj("LINE")
+>cnvobj1:save()
+>cnvobj1.mode = "EDITOR"
+>cnvobj1:drawObj("LINE")
+>cnvobj1:save()
+>cnvobj1.mode="EDITOR"
+>cnvobj1:drawObj("LINE")
+>cnvobj1:save()
+>cnvobj1.mode = "EDITOR"
+>cnvobj1:drawObj("LINE")
+>cnvobj1:save()
+>cnvobj1.mode = "EDITOR"
+>
+>cnvobj1:darwObj("LINE")
+stdin:1: attempt to call a nil value (method 'darwObj')
+>cnvobj1:drawObj("LINE")
+>cnvobj1:save()
+>cnvobj1.mode = "EDITOR"
+>cnvobj1:drawObj("LINE")
+>cnvobj1:save()
+>cnvobj1.mode = "EDITOR"
+>cnvobj1:load()
+>cnvobj2:drawObj("ELLIPSE")
+>cnvobj2:save()
+>cnvobj2.mode = "EDITOR"
+>cnvobj2.load()
+>cnvobj2.load()
+>cnvobj1:drawObj("ELLISPE")
+
+>cnvobj2.load()
+>cnvobj1:drawObj("ELLIPSE")
+>cnvobj1:save()
+>cnvobj1.mode = "EDITOR"
+>cnvobj1.load()
+>cnvobj1:drawObj("ELLIPSE")
+>cnvobj1:save()
+>cnvobj1.mode = "EDITOR"
+>cnvobj1.load()
+>
+>
+>cnvobj1:drawObj("LINE")
+>cnvobj1:save()
+>cnvobj1.mode = "EDITOR"
+>cnvobj1:load()
+>cnvobj1:drawObj("LINE")
+>cnvobj1:save()
+>cnvobj1.mode = "EDITOR"
+>cnvobj1.load()
+>cnvobj1:drawObj("ELLISPE")
+>cnvobj1:drawObj("ELLIPSE")
+>cnvobj1:save()
+>cnvobj1.mode = "EDITOR"
+>cnvobj1:load()
+>cnvobj1:drawObj("LIEN")
+>cnvobj1:drawObj("LINE")
+>cnvobj1:save()
+>cnvobj1.mode = "EDITOR"
+>cnvobj1:load()
+>cnvobj2:drawObj("ELLIPSE")
+>cnvobj1:drawObj("RECT")
+>cnvobj1:save()
+>cnvobj1.mode = "EDITOR"
+>cnvobj1:load()
+>cnvobj2:save()
+>cnvobj2.mode = "EDITOR"
+>
+>cnvobj2:load()
+>cnvobj1:drawObj("LINE")
+>cnvobj2:drawObj("RECT")
+>cnvobj1:save()
+>cnvobj1.mode= "EDITOR"
+>cnvobj2:save()
+>cnvobj2.mode = "EDITOR"
+>cnvobj1:load()
+>cnvobj2:load()
 >

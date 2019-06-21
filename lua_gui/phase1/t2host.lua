@@ -23,12 +23,16 @@ LTdlg:showxy(iup.RIGHT, iup.RIGHT)
 -------------<<<<<<<<<<< ##### LuaTerminal End ##### >>>>>>>>>>>>>-------------
 
 
-------------<<<<<<<<<< ####### lua-gl ######## >>>>>>>>>>>----------------
-LGL = require("t2")
--- format LGL.new(mode, gridx, gridy, width, height, gridVisibility)
-cnvobj1 = LGL.new("DRAWING", 40, 40, 600, 300, true)  
-cnvobj2 =  LGL.new("DRAWING", 15, 15, 600, 300, true)
 
+LGL = require("t2")
+cnvobj1 = LGL.new("DRAWING", 20, 20, 200, 200)  
+cnvobj2=  LGL.new("DRAWING", 15, 15, 200, 200)
+
+
+--cnvobj1:erase()
+--cnv1 = cnvobj1:drawObj("ELLIPSE")
+
+--cnv2 = cnvobj2:drawObj("LINE")
 
 dlg = iup.dialog{
     iup.vbox{
@@ -41,6 +45,8 @@ dlg = iup.dialog{
     canvas=cnv1,
     
 }
+
+--dlg1:show()
 dlg:showxy(iup.CENTER, iup.CENTER)
 
 if iup.MainLoopLevel()==0 then
@@ -48,5 +54,7 @@ if iup.MainLoopLevel()==0 then
     iup.Close()
 end
 
+st1 = cnvobj1:save()
+print("string = "..st1)
 
 
