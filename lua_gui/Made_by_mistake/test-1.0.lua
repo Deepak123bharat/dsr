@@ -5,7 +5,7 @@ require("iupluaim")
 require("cdlua")
 require("cdluaim")
 require("iupluacd")
-
+--it is just test
 --initial widht and height
 w=0
 h=0
