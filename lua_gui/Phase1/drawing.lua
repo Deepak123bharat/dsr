@@ -2,7 +2,7 @@
 --********************************** Utilities *****************************************
 local str = "{"
 
-
+--function for buttons
 function Line_button()
   shapeName="LINE"
 end
