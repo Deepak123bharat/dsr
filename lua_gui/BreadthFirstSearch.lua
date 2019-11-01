@@ -1,20 +1,26 @@
+local table = table
+local print = print
 
-ROW =9 
-COL =10 
+local M = {}
+package.loaded[...] = M 
+local _ENV = M
+
 
 Point = {}
 
 queueNode  = {}
+matrix_width, matrix_height = 0, 0
 
 function table.clone(org)
     return {table.unpack(org)}
-  end
+end
+
 
 function isValid(row, col) 
 
     -- return true if row number and column number 
     -- is in range 
-    if (row > 0) and (row <= ROW) and (col > 0) and (col <= COL) then
+    if (row > 0) and (row <= matrix_width) and (col > 0) and (col <= matrix_height) then
         return 1
     else
         return 0
@@ -28,19 +34,19 @@ colNum = {0, -1, 1, 0};
   
 -- function to find the shortest path and string between 
 -- a given source cell to a destination cell. 
-function BFS(mat, srcX,srcY,destX, destY) 
+function BFS(mat, srcX,srcY,destX, destY, mWidth, mHeight) 
    
     -- check source and destination cell 
     -- of the matrix have value 1 
-   
+    matrix_width, matrix_height = mWidth, mHeight
     if isValid(srcX,srcY) == 0 or isValid(destX, destY)==0 and mat[srcX][srcY]==0 and mat[destX][destY]==0 then 
         return -1
     end
 
     visited = {}
-    for i=1, ROW do 
+    for i=1, matrix_width do 
         visited[i] = {}
-        for j=1, COL do 
+        for j=1, matrix_height do 
             visited[i][j] = false
         end
     end
@@ -53,7 +59,7 @@ function BFS(mat, srcX,srcY,destX, destY)
 
     -- Distance of source cell is 0 
     str = ""
-    par = {}
+   
     s = {srcX, srcY, 0, str}; 
     table.insert(q,s)  -- Enqueue source cell 
   
@@ -106,7 +112,8 @@ function BFS(mat, srcX,srcY,destX, destY)
 end
   
 -- Driver program to test above function 
-mat =  { 
+
+--[[mat =  { 
         { 1, 0, 1, 1, 1, 1, 0, 1, 1, 1 }, 
         { 1, 0, 0, 0, 1, 1, 1, 0, 1, 1 }, 
         { 1, 1, 1, 1, 1, 1, 0, 1, 0, 1 }, 
@@ -119,13 +126,14 @@ mat =  {
   
     
     sourceX , sourceY = 1, 1 
-    destX, destY= 5, 7
+    destX, destY= 6, 5
   
-    dist, strin= BFS(mat, sourceX, sourceY, destX, destY); 
+    dist, strin= BFS(mat, sourceX, sourceY, destX, destY, 9, 10); 
   
     if (dist ~= INT_MAX) then
         print("Shortest Path is ", dist, strin) 
     else
         print("Shortest Path doesn't exist") 
     end
-    return 0; 
+]]
+  

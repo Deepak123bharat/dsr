@@ -72,12 +72,9 @@ local function Manipulate_activeEle(cnvobj, x, y, Table)
 								
 								local status = Table[i].portTable[ite].segmentTable[segIte].segmentStatus
 								if segmentID and status=="ending" and connectorID then
-									print(connectorID, segmentID, i, ite, cnvobj.connector[connectorID].segments[segmentID].end_x)
-									cnvobj.connector[connectorID].segments[segmentID].end_x = Table[i].portTable[ite].x
-									cnvobj.connector[connectorID].segments[segmentID].end_y = Table[i].portTable[ite].y
-
-									local endX = cnvobj.connector[connectorID].segments[segmentID].end_x
-									local endY = cnvobj.connector[connectorID].segments[segmentID].end_y
+									
+									local endX = Table[i].portTable[ite].x
+									local endY = Table[i].portTable[ite].y
 									local startX = cnvobj.connector[connectorID].segments[1].start_x
 									local startY = cnvobj.connector[connectorID].segments[1].start_y
 									if segmentID and connectorID then
@@ -85,11 +82,9 @@ local function Manipulate_activeEle(cnvobj, x, y, Table)
 									end
 								end
 								if segmentID and status=="starting" and connectorID then
-									cnvobj.connector[connectorID].segments[segmentID].start_x = Table[i].portTable[ite].x
-									cnvobj.connector[connectorID].segments[segmentID].start_y = Table[i].portTable[ite].y
 
-									local endX = cnvobj.connector[connectorID].segments[segmentID].start_x
-									local endY = cnvobj.connector[connectorID].segments[segmentID].start_y
+									local endX = Table[i].portTable[ite].x
+									local endY = Table[i].portTable[ite].y
 									local totalSegmentInThisConnector = #cnvobj.connector[connectorID].segments
 									local startX = cnvobj.connector[connectorID].segments[totalSegmentInThisConnector].end_x
 									local startY = cnvobj.connector[connectorID].segments[totalSegmentInThisConnector].end_y
@@ -182,23 +177,6 @@ local function cursorOnPort(cnvobj, x, y)
 	return false
 end
 
-local function addTwoTableAndRemoveDuplicate(table2,table1,table3)
-	res = {}
-	hash = {}
-	for _,v in pairs(table2) do
-		table.insert(table1, v) 
-	end	
-	for _,v in pairs(table3) do
-		table.insert(table1, v) 
-	end	
-	for _,v in pairs(table1) do
-		if (not hash[v]) then
-			res[#res+1] = v 
-			hash[v] = true
-		end
-	end
-	return res
-end
 
 local objFuncs = {
 
@@ -542,7 +520,10 @@ local objFuncs = {
 				while #cnvobj.group >= i do
 					for j=1, #cnvobj.group[i] do
 						if shapeList[k]==cnvobj.group[i][j] then
-							tempTable = addTwoTableAndRemoveDuplicate(cnvobj.group[i],shapeList,tempTable)
+							--tempTable = addTwoTableAndRemoveDuplicate(cnvobj.group[i],shapeList,tempTable)
+							tempTable = tableUtils.mergeTable(cnvobj.group[i],tempTable)
+							tempTable = tableUtils.mergeTable(shapeList,tempTable)
+							
 							table.remove(cnvobj.group, i)
 							i = i - 1
 							match = true

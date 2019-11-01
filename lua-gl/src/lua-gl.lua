@@ -12,7 +12,7 @@ local snap = require("snap")
 local segmentGenerator = require("segmentGenerator")
 local check = require("ClickFunctions")
 local tableUtils = require("tableUtils")
-local CC = require("TESTcreateCanvas")
+local CC = require("createCanvas")
 
 local M = {}
 package.loaded[...] = M
@@ -21,7 +21,7 @@ _ENV = M		-- Lua 5.2+
 -- this function is used to manipulate active Element table data
 local function Manipulate_activeEle(cnvobj, x, y, Table)
 	if #Table > 0 then
-		cnvobj.matrix = segmentGenerator.findMatrix(cnvobj)
+
 		for i=1, #Table do
 			if Table[i].portTable then
 				if #Table[i].portTable >= 0 then
@@ -69,35 +69,15 @@ local function Manipulate_activeEle(cnvobj, x, y, Table)
 								local segmentID = Table[i].portTable[ite].segmentTable[segIte].segmentID
 								local connectorID = Table[i].portTable[ite].segmentTable[segIte].connectorID
 								--print("connector Id = "..connectorID)
-								
 								local status = Table[i].portTable[ite].segmentTable[segIte].segmentStatus
-								if segmentID and status=="ending" and connectorID then
-									print(connectorID, segmentID, i, ite, cnvobj.connector[connectorID].segments[segmentID].end_x)
+								if segmentID and status=="ending" then
 									cnvobj.connector[connectorID].segments[segmentID].end_x = Table[i].portTable[ite].x
 									cnvobj.connector[connectorID].segments[segmentID].end_y = Table[i].portTable[ite].y
-
-									local endX = cnvobj.connector[connectorID].segments[segmentID].end_x
-									local endY = cnvobj.connector[connectorID].segments[segmentID].end_y
-									local startX = cnvobj.connector[connectorID].segments[1].start_x
-									local startY = cnvobj.connector[connectorID].segments[1].start_y
-									if segmentID and connectorID then
-										segmentGenerator.generateSegments(cnvobj, connectorID, segmentID, startX, startY, endX, endY)
-									end
 								end
-								if segmentID and status=="starting" and connectorID then
+								if segmentID and status=="starting" then
 									cnvobj.connector[connectorID].segments[segmentID].start_x = Table[i].portTable[ite].x
 									cnvobj.connector[connectorID].segments[segmentID].start_y = Table[i].portTable[ite].y
-
-									local endX = cnvobj.connector[connectorID].segments[segmentID].start_x
-									local endY = cnvobj.connector[connectorID].segments[segmentID].start_y
-									local totalSegmentInThisConnector = #cnvobj.connector[connectorID].segments
-									local startX = cnvobj.connector[connectorID].segments[totalSegmentInThisConnector].end_x
-									local startY = cnvobj.connector[connectorID].segments[totalSegmentInThisConnector].end_y
-									if segmentID and connectorID then
-										segmentGenerator.generateSegments(cnvobj, connectorID, segmentID, startX, startY, endX, endY)
-									end
 								end
-								
 							end
 						end
 					end
@@ -470,12 +450,16 @@ local objFuncs = {
 				if cnvobj.drawing == "CONNECTOR" and cnvobj.connectorFlag == true then
 					local index = #cnvobj.connector
 					local segLen = #cnvobj.connector[index].segments
-
-					local startX = cnvobj.connector[index].segments[1].start_x
-					local startY = cnvobj.connector[index].segments[1].start_y
-
+					
+					while segLen > 1 do
+						table.remove(cnvobj.connector[index].segments, segLen)
+						segLen = segLen - 1
+					end
+					
 					if segLen and index then
-						segmentGenerator.generateSegments(cnvobj, index, segLen, startX, startY, x, y)
+						segmentGenerator.generateSegments(cnvobj, index, segLen, x, y)
+						--cnvobj.connector[index].segments[segLen].end_x = x 
+						--cnvobj.connector[index].segments[segLen].end_y = y	
 					end
 					iup.Update(cnvobj.cnv)
 				end
