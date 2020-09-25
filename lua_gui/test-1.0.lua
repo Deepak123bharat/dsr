@@ -2,10 +2,10 @@ require"cdlua"
 require"iupluacd"
 require"iuplua"
 
---main canvas
+--main canvas 
 canva = iup.canvas {size = "200x100"}
 
---vertical box
+--vertical box of iup
 vbox = iup.vbox{ canva }
 
 --main dialog
